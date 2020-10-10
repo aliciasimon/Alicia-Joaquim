@@ -1,0 +1,144 @@
+/* Fonts (Custom & Google) */
+@font-face{
+    font-family: "Marvel";
+    src: url("fonts/Marvel.ttf") format("tff");
+}
+
+.img-display{
+    width: auto;
+    object-fit: fill;
+} 
+
+/* Navigation Bar */
+nav{
+    background-color: black;
+    height: 70px;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    position: absolute;
+    z-index: 999;
+}
+
+.navbar-brand img{
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.nav-link:hover{
+    opacity: 0.6s;
+    text-decoration: underline;
+}
+
+/* Visual Display */
+
+/* Banner Image */
+#banner-img{
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("https://wallpaperaccess.com/full/13452.jpg");
+    -moz-background-size: cover; 
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+    margin-top: 0px;
+    object-fit: fill;
+    z-index: 1;
+    position: relative;
+}
+
+/* Text Display */
+#text-display{
+    margin-top: -570px;
+    margin-left: 5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.lead-phrase{
+    font-size: 60px;
+    color: white;
+    font-family: 'Avengero';
+}
+
+.highlight{
+    font-weight: bold;
+    color: #ED1D24;
+    font-family: inherit;
+}
+
+.description{
+    display: block;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+#btn{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    width: 30%;
+    display: block;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#btn:hover{
+    border: 3px solid #ED1D24;
+    color: #ED1D24;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* About */
+.about-section{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.column{
+    float: left;
+}
+
+.left {
+    width: 25%;
+  }
+  
+.right {
+    width: 75%;
+}
+
+.about-h1{
+    margin-top: 10px;
+    color: #ED1D24;
+    font-family: 'Avengero';
+    font-size: 40px;
+}
+
+.about-p{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
